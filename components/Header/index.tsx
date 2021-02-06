@@ -1,11 +1,12 @@
 import React from "react";
+// I want to create an icon for each nav link
 
 const Header = () => {
   return (
-    <header className="md:flex justify-between align-center py-4 px-8">
-      <h1>TA</h1>
+    <header className="md:flex justify-between align-center py-4 px-8 bg-gray-800 text-white">
+      <h1 className="text-2xl">TA</h1>
       <div className="flex justify-center">
-        <nav className="fixed w-9/12 bg-gray-800 bottom-8 flex justify-center py-4 gap-4 rounded-lg text-white md:static md:text-black md:bg-white md:py-0">
+        <nav className="fixed w-11/12 bg-gray-800 bottom-8 flex justify-evenly py-4 gap-4 rounded-lg md:static md:py-0">
           <a href="">Home</a>
           <a href="">About</a>
           <a href="">Projects</a>
